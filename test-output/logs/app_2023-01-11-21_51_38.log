@@ -1,0 +1,77 @@
+2023-Jan-11 21:51:45 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-11 21:51:48 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-11 21:52:01 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-11 21:52:01 PM [main] INFO  com.web.actions.WebActions - Write Text 'Shubham@123' on --> id: password]
+2023-Jan-11 21:52:05 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-11 21:52:22 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Close']]
+2023-Jan-11 21:52:33 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='https://localhost']]
+2023-Jan-11 21:52:33 PM [main] INFO  com.web.actions.WebActions - Window Switching : 
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebActions - Exception: ClearText '
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d00ca91dd3d8177c7056a4bceac34087
+*** Element info: {Using=id, value=login-username}
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebActions - Exception: Write Text 'shubham' on 
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d00ca91dd3d8177c7056a4bceac34087
+*** Element info: {Using=id, value=login-username}
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebActions - Exception: ClearText '
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d00ca91dd3d8177c7056a4bceac34087
+*** Element info: {Using=id, value=login-password}
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebActions - Exception: Write Text 'Shubham@123' on 
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d00ca91dd3d8177c7056a4bceac34087
+*** Element info: {Using=id, value=login-password}
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebActions - Exception: Enter Key.
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d00ca91dd3d8177c7056a4bceac34087
+*** Element info: {Using=id, value=login-password}
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebBrowserActions - Exception: CloseBrowser.
+2023-Jan-11 21:53:03 PM [main] INFO  com.web.actions.WebBrowserActions - Exception Log: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d00ca91dd3d8177c7056a4bceac34087
+2023-Jan-11 21:53:03 PM [main] ERROR com.web.reporting.TestListner - com.FaceFirst.web.runner.RunTestNGTest
+2023-Jan-11 21:53:03 PM [main] ERROR com.web.reporting.TestListner - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d00ca91dd3d8177c7056a4bceac34087

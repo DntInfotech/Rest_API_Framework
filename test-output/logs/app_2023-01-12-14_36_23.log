@@ -1,0 +1,61 @@
+2023-Jan-12 14:36:31 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-12 14:36:33 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-12 14:36:42 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: username]
+2023-Jan-12 14:36:43 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikantk@yugensys.com' on --> id: username]
+2023-Jan-12 14:36:47 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-12 14:36:48 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: password]
+2023-Jan-12 14:36:52 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-12 14:37:08 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Close']]
+2023-Jan-12 14:37:20 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='https://localhost']]
+2023-Jan-12 14:37:20 PM [main] INFO  com.web.actions.WebActions - Window Switching : 
+2023-Jan-12 14:37:31 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-username]
+2023-Jan-12 14:37:31 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikantk' on --> id: login-username]
+2023-Jan-12 14:37:32 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-password]
+2023-Jan-12 14:37:32 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: login-password]
+2023-Jan-12 14:37:33 PM [main] INFO  com.web.actions.WebActions - Enter Key On --> id: login-password]
+2023-Jan-12 14:37:33 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //img[@id='ff-header-logo']]
+2023-Jan-12 14:37:34 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2023-Jan-12 14:37:37 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-12 14:37:40 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-12 14:37:49 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: username]
+2023-Jan-12 14:37:49 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikantk@yugensys.com' on --> id: username]
+2023-Jan-12 14:37:55 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-12 14:37:57 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: password]
+2023-Jan-12 14:38:02 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-12 14:38:18 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Close']]
+2023-Jan-12 14:38:30 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='https://localhost']]
+2023-Jan-12 14:38:30 PM [main] INFO  com.web.actions.WebActions - Window Switching : 
+2023-Jan-12 14:38:41 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-username]
+2023-Jan-12 14:38:41 PM [main] INFO  com.web.actions.WebActions - Write Text 'wrongUsername' on --> id: login-username]
+2023-Jan-12 14:38:42 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-password]
+2023-Jan-12 14:38:42 PM [main] INFO  com.web.actions.WebActions - Write Text 'Wrong@123' on --> id: login-password]
+2023-Jan-12 14:38:43 PM [main] INFO  com.web.actions.WebActions - Enter Key On --> id: login-password]
+2023-Jan-12 14:38:43 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //div[@class='ff-alert alert-error']]
+2023-Jan-12 14:38:43 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2023-Jan-12 14:38:46 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-12 14:38:49 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-12 14:38:58 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: username]
+2023-Jan-12 14:38:58 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikantk@yugensys.com' on --> id: username]
+2023-Jan-12 14:39:03 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-12 14:39:03 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: password]
+2023-Jan-12 14:39:07 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-12 14:39:24 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Close']]
+2023-Jan-12 14:39:31 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2023-Jan-12 14:39:34 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-12 14:39:36 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-12 14:39:45 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: username]
+2023-Jan-12 14:39:46 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikantk@yugensys.com' on --> id: username]
+2023-Jan-12 14:39:50 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-12 14:39:51 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: password]
+2023-Jan-12 14:40:07 PM [main] INFO  com.web.actions.WebActions - Click on :
+2023-Jan-12 14:40:21 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //span[contains(text(),"Welcome to the FaceFirst platform!")]]
+2023-Jan-12 14:40:22 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2023-Jan-12 14:40:25 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-12 14:40:28 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-12 14:40:29 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: username]
+2023-Jan-12 14:40:29 PM [main] INFO  com.web.actions.WebActions - Write Text 'test@yugensys.com' on --> id: username]
+2023-Jan-12 14:40:30 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-12 14:40:30 PM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: password]
+2023-Jan-12 14:40:31 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-12 14:40:35 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //*[text()='Invalid username or password']]
+2023-Jan-12 14:40:37 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

@@ -1,0 +1,55 @@
+2023-Jan-23 15:43:09 PM [main] ERROR com.web.reporting.TestListner - com.FaceFirst.web.runner.RunTestNGTest
+2023-Jan-23 15:43:09 PM [main] ERROR com.web.reporting.TestListner - io.cucumber.testng.UndefinedStepException: The step 'Add Place Payload "shubham" "English" "Mumbai sector G"' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Add Place Payload {string} {string} {string}")
+public void add_place_payload(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user calls {string} with {string} http request")
+public void user_calls_with_http_request(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the API call got success with status code {int}")
+public void the_api_call_got_success_with_status_code(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{string} in response body is {string}")
+public void in_response_body_is(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("varify place Id created map {string} using {string}")
+public void varify_place_id_created_map_using(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+2023-Jan-23 15:43:09 PM [main] ERROR com.web.reporting.TestListner - com.FaceFirst.web.runner.RunTestNGTest
+2023-Jan-23 15:43:09 PM [main] ERROR com.web.reporting.TestListner - io.cucumber.testng.UndefinedStepException: The step 'DeletePlace Payload' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("DeletePlace Payload")
+public void delete_place_payload() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user calls {string} with {string} http request")
+public void user_calls_with_http_request(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the API call got success with status code {int}")
+public void the_api_call_got_success_with_status_code(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{string} in response body is {string}")
+public void in_response_body_is(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+

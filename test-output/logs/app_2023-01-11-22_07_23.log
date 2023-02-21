@@ -1,0 +1,36 @@
+2023-Jan-11 22:08:03 PM [main] INFO  com.driver.DriverFactory - InstantiateDriverObject Exception Log: org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	(No symbol) [0x006EF243]
+	(No symbol) [0x00677FD1]
+	(No symbol) [0x0056D04D]
+	(No symbol) [0x0058C24E]
+	(No symbol) [0x005882E9]
+	(No symbol) [0x005BF056]
+	(No symbol) [0x005BEB2A]
+	(No symbol) [0x005B8386]
+	(No symbol) [0x0059163C]
+	(No symbol) [0x0059269D]
+	GetHandleVerifier [0x00989A22+2655074]
+	GetHandleVerifier [0x0097CA24+2601828]
+	GetHandleVerifier [0x00798C0A+619850]
+	GetHandleVerifier [0x00797830+614768]
+	(No symbol) [0x006805FC]
+	(No symbol) [0x00685968]
+	(No symbol) [0x00685A55]
+	(No symbol) [0x0069051B]
+	BaseThreadInitThunk [0x752200F9+25]
+	RtlGetAppContainerNamedObjectPath [0x773A7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x773A7B8E+238]
+
+2023-Jan-11 22:08:03 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-11 22:08:03 PM [main] INFO  com.web.actions.WebActions - Exception: Navigate to 'https://localhost:5000/login
+2023-Jan-11 22:08:03 PM [main] INFO  com.web.actions.WebActions - Exception Log: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.navigate()" because "this.driver" is null
+2023-Jan-11 22:08:03 PM [main] INFO  com.web.actions.WebBrowserActions - Exception: CloseBrowser.
+2023-Jan-11 22:08:03 PM [main] INFO  com.web.actions.WebBrowserActions - Exception Log: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+2023-Jan-11 22:08:03 PM [main] ERROR com.web.reporting.TestListner - com.FaceFirst.web.runner.RunTestNGTest
+2023-Jan-11 22:08:03 PM [main] ERROR com.web.reporting.TestListner - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.WebTestActions.driver" is null

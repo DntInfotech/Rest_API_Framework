@@ -1,0 +1,118 @@
+2023-Jan-11 21:02:30 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-11 21:02:33 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-11 21:02:46 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-11 21:02:46 PM [main] INFO  com.web.actions.WebActions - Write Text 'Shubham@123' on --> id: password]
+2023-Jan-11 21:02:50 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-11 21:03:07 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Close']]
+2023-Jan-11 21:03:18 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='https://localhost']]
+2023-Jan-11 21:03:18 PM [main] INFO  com.web.actions.WebActions - Window Switching : 
+2023-Jan-11 21:03:30 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-username]
+2023-Jan-11 21:03:30 PM [main] INFO  com.web.actions.WebActions - Write Text 'shubham' on --> id: login-username]
+2023-Jan-11 21:03:30 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-password]
+2023-Jan-11 21:03:30 PM [main] INFO  com.web.actions.WebActions - Write Text 'Shubham@123' on --> id: login-password]
+2023-Jan-11 21:03:31 PM [main] INFO  com.web.actions.WebActions - Enter Key On --> id: login-password]
+2023-Jan-11 21:03:31 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //img[@id='ff-header-logo']]
+2023-Jan-11 21:03:31 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //img[@id='ff-header-logo']]
+2023-Jan-11 21:03:32 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //p[@class='posrel disblk fltlft' and text()='Visitors']]
+2023-Jan-11 21:03:33 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //p[@class='posrel disblk fltlft' and text()='Visitors']]
+2023-Jan-11 21:03:33 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: (//img[@class='psuedo-back-img'])[1]]
+2023-Jan-11 21:03:34 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //p[text()='Visitor - Photo View']]
+2023-Jan-11 21:03:34 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[contains(text(),'Action')]]
+2023-Jan-11 21:03:36 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[.='Identify within Enrollments']]
+2023-Jan-11 21:04:07 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2023-Jan-11 21:04:22 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //p[text()='Add Details']]
+2023-Jan-11 21:04:23 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@name='internal_group']]
+2023-Jan-11 21:04:34 PM [main] INFO  com.web.actions.WebActions - Exception: SelectByValue: DefaultEnrollmentGroup (Serious Offender - None), --> xpath: //select[@name='internal_group']]
+2023-Jan-11 21:04:34 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: DefaultEnrollmentGroup (Serious Offender - None)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: unknown
+2023-Jan-11 21:04:35 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> xpath: //input[@name='storeId']]
+2023-Jan-11 21:04:35 PM [main] INFO  com.web.actions.WebActions - Write Text 'mumbai' on --> xpath: //input[@name='storeId']]
+2023-Jan-11 21:04:35 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> xpath: //input[@name='caseNumber']]
+2023-Jan-11 21:04:36 PM [main] INFO  com.web.actions.WebActions - Write Text 'kill 1 person' on --> xpath: //input[@name='caseNumber']]
+2023-Jan-11 21:04:36 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> xpath: //input[@name='reportedLoss']]
+2023-Jan-11 21:04:36 PM [main] INFO  com.web.actions.WebActions - Write Text '500000' on --> xpath: //input[@name='reportedLoss']]
+2023-Jan-11 21:04:36 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> xpath: //input[@name='timeIncident']]
+2023-Jan-11 21:04:37 PM [main] INFO  com.web.actions.WebActions - Write Text '07122000 0625' on --> xpath: //input[@name='timeIncident']]
+2023-Jan-11 21:04:37 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> xpath: //input[@name='action']]
+2023-Jan-11 21:04:37 PM [main] INFO  com.web.actions.WebActions - Write Text 'call police' on --> xpath: //input[@name='action']]
+2023-Jan-11 21:04:48 PM [main] INFO  com.web.actions.WebActions - Click on :
+2023-Jan-11 21:04:59 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //div[text()='Enrollment Success' and @class='enroll-steps-title light-blue-bg']]
+2023-Jan-11 21:05:29 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2023-Jan-11 21:05:29 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='identify_11']/div[1]/div"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 023434cd05628c4682593f54f554113d
+*** Element info: {Using=xpath, value=//*[@id='identify_11']/div[1]/div}
+2023-Jan-11 21:06:10 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2023-Jan-11 21:06:10 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='large_view_14']/div[1]/div"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 023434cd05628c4682593f54f554113d
+*** Element info: {Using=xpath, value=//*[@id='large_view_14']/div[1]/div}
+2023-Jan-11 21:06:50 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2023-Jan-11 21:06:50 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='aliens_9']/div[1]/div"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 023434cd05628c4682593f54f554113d
+*** Element info: {Using=xpath, value=//*[@id='aliens_9']/div[1]/div}
+2023-Jan-11 21:07:10 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //div[@id='start-logo-container']]
+2023-Jan-11 21:07:10 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 023434cd05628c4682593f54f554113d
+2023-Jan-11 21:07:20 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //p[text()='Events' and @class='login-menu-title tal posrel fltlft']]
+2023-Jan-11 21:07:20 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 023434cd05628c4682593f54f554113d
+2023-Jan-11 21:07:51 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2023-Jan-11 21:08:03 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //input[@ng-model='selectAllCheckboxState']]
+2023-Jan-11 21:08:03 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input icheck="" ng-model="selectAllCheckboxState" function-to-call="$scope.selectAllCheckBoxSelected();" type="checkbox" class="select-all-checkbox ng-pristine ng-untouched ng-valid ng-empty" style="color: red; background: SkyBlue; border: 2px solid red;"> is not clickable at point (405, 79). Other element would receive the click: <ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 023434cd05628c4682593f54f554113d
+2023-Jan-11 21:08:07 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@class='btn dropdown-toggle pull-right toolbar-btn nav-pills-small']]
+2023-Jan-11 21:08:41 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2023-Jan-11 21:08:41 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@ng-click='deleteSelectedEventsClicked()']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 023434cd05628c4682593f54f554113d
+*** Element info: {Using=xpath, value=//a[@ng-click='deleteSelectedEventsClicked()']}
+2023-Jan-11 21:08:56 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //input[@ng-model='selectAllCheckboxState']]
+2023-Jan-11 21:08:56 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input icheck="" ng-model="selectAllCheckboxState" function-to-call="$scope.selectAllCheckBoxSelected();" type="checkbox" class="select-all-checkbox ng-pristine ng-untouched ng-valid ng-empty" style="color: red; background: SkyBlue; border: 2px solid red;"> is not clickable at point (405, 79). Other element would receive the click: <a ng-show="Session.rightsFor('alien').delete &amp;&amp; Session.rightsFor('alien').delete &amp;&amp; alienFaces" ng-click="deletedSelectedAlienFaces()" ng-bind="'TEXT-DELETE-ALIENS' | i18n" class="">...</a>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 023434cd05628c4682593f54f554113d
+2023-Jan-11 21:09:42 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2023-Jan-11 21:09:43 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

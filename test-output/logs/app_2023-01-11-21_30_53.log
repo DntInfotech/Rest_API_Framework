@@ -1,0 +1,33 @@
+2023-Jan-11 21:31:02 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-11 21:31:09 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-11 21:31:22 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-11 21:31:22 PM [main] INFO  com.web.actions.WebActions - Write Text 'Shubham@123' on --> id: password]
+2023-Jan-11 21:31:26 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-11 21:31:43 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Close']]
+2023-Jan-11 21:31:54 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='https://localhost']]
+2023-Jan-11 21:31:54 PM [main] INFO  com.web.actions.WebActions - Window Switching : 
+2023-Jan-11 21:32:06 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-username]
+2023-Jan-11 21:32:06 PM [main] INFO  com.web.actions.WebActions - Write Text 'shubham' on --> id: login-username]
+2023-Jan-11 21:32:06 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-password]
+2023-Jan-11 21:32:06 PM [main] INFO  com.web.actions.WebActions - Write Text 'Shubham@123' on --> id: login-password]
+2023-Jan-11 21:32:07 PM [main] INFO  com.web.actions.WebActions - Enter Key On --> id: login-password]
+2023-Jan-11 21:32:07 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //img[@id='ff-header-logo']]
+2023-Jan-11 21:32:07 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //img[@id='ff-header-logo']]
+2023-Jan-11 21:32:08 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //p[@class='posrel disblk fltlft' and text()='Visitors']]
+2023-Jan-11 21:32:09 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //p[@class='posrel disblk fltlft' and text()='Visitors']]
+2023-Jan-11 21:32:09 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: (//img[@class='psuedo-back-img'])[1]]
+2023-Jan-11 21:32:09 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //p[text()='Visitor - Photo View']]
+2023-Jan-11 21:32:10 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[contains(text(),'Action')]]
+2023-Jan-11 21:32:12 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[.='Identify within Enrollments']]
+2023-Jan-11 21:32:43 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2023-Jan-11 21:32:59 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2023-Jan-11 21:33:00 PM [main] ERROR com.web.reporting.TestListner - com.FaceFirst.web.runner.RunTestNGTest
+2023-Jan-11 21:33:00 PM [main] ERROR com.web.reporting.TestListner - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[text()='No matches found, enrolling...'])[2]"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f631b99cad8e8b08206e29d4afce09c
+*** Element info: {Using=xpath, value=(//div[text()='No matches found, enrolling...'])[2]}

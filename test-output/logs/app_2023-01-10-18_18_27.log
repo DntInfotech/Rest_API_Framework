@@ -1,0 +1,47 @@
+2023-Jan-10 18:18:30 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-10 18:18:32 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-10 18:18:45 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-10 18:18:46 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: password]
+2023-Jan-10 18:18:51 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-10 18:19:07 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Close']]
+2023-Jan-10 18:19:18 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='https://localhost']]
+2023-Jan-10 18:19:18 PM [main] INFO  com.web.actions.WebActions - Window Switching : 
+2023-Jan-10 18:19:30 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-username]
+2023-Jan-10 18:19:30 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikantk' on --> id: login-username]
+2023-Jan-10 18:19:31 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-password]
+2023-Jan-10 18:19:31 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: login-password]
+2023-Jan-10 18:19:32 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //p[text()='Users' and @class='login-menu-title tal posrel fltlft'] ]
+2023-Jan-10 18:19:33 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //p[text()='Users' and @class='login-menu-title tal posrel fltlft']]
+2023-Jan-10 18:19:33 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //span[text()='Enabled']]
+2023-Jan-10 18:19:46 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //div[@ng-click='logout()'and @class='footer-menu-item-min posrel fltlft']]
+2023-Jan-10 18:19:46 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1Q7B79B', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63107}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e0a93fad842d1c00530adef1976a5527
+2023-Jan-10 18:19:46 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2023-Jan-10 18:19:49 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-10 18:19:50 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-10 18:20:03 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-10 18:20:04 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: password]
+2023-Jan-10 18:20:18 PM [main] INFO  com.web.actions.WebActions - Click on :
+2023-Jan-10 18:20:35 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Close']]
+2023-Jan-10 18:20:45 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='https://localhost']]
+2023-Jan-10 18:20:45 PM [main] INFO  com.web.actions.WebActions - Window Switching : 
+2023-Jan-10 18:20:57 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-username]
+2023-Jan-10 18:20:57 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikantk' on --> id: login-username]
+2023-Jan-10 18:20:58 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-password]
+2023-Jan-10 18:20:58 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: login-password]
+2023-Jan-10 18:20:59 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //p[text()='Events' and @class='login-menu-title tal posrel fltlft']]
+2023-Jan-10 18:21:00 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Events']]
+2023-Jan-10 18:21:12 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //div[@ng-click='logout()'and @class='footer-menu-item-min posrel fltlft']]
+2023-Jan-10 18:21:12 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1Q7B79B', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63157}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee3465988506e84daeb8e1303ac37a8
+2023-Jan-10 18:21:12 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

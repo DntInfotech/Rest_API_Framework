@@ -1,0 +1,9 @@
+2023-Jan-12 13:34:51 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-12 13:34:54 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-12 13:35:03 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: username]
+2023-Jan-12 13:35:03 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikantk@yugensys.com' on --> id: username]
+2023-Jan-12 13:35:08 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-12 13:35:08 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: password]
+2023-Jan-12 13:35:13 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-12 13:35:29 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Close']]
+2023-Jan-12 13:35:40 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='https://localhost']]

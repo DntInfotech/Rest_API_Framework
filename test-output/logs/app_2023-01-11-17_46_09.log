@@ -1,0 +1,62 @@
+2023-Jan-11 17:46:24 pm [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-11 17:46:26 pm [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-11 17:46:40 pm [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-11 17:46:40 pm [main] INFO  com.web.actions.WebActions - Write Text 'Test!@12' on --> id: password]
+2023-Jan-11 17:46:44 pm [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-11 17:47:00 pm [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Close']]
+2023-Jan-11 17:47:13 pm [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='https://localhost']]
+2023-Jan-11 17:47:13 pm [main] INFO  com.web.actions.WebActions - Window Switching : 
+2023-Jan-11 17:47:24 pm [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-username]
+2023-Jan-11 17:47:24 pm [main] INFO  com.web.actions.WebActions - Write Text 'shrikantk' on --> id: login-username]
+2023-Jan-11 17:47:24 pm [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-password]
+2023-Jan-11 17:47:24 pm [main] INFO  com.web.actions.WebActions - Write Text 'Test!@12' on --> id: login-password]
+2023-Jan-11 17:47:25 pm [main] INFO  com.web.actions.WebActions - Enter Key On --> id: login-password]
+2023-Jan-11 17:47:25 pm [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //img[@id='ff-header-logo']]
+2023-Jan-11 17:47:25 pm [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //img[@id='ff-header-logo']]
+2023-Jan-11 17:47:26 pm [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //p[@class='posrel disblk fltlft' and text()='Visitors']]
+2023-Jan-11 17:47:27 pm [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //p[@class='posrel disblk fltlft' and text()='Visitors']]
+2023-Jan-11 17:47:27 pm [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2023-Jan-11 17:47:27 pm [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //img[@class='psuedo-back-img'])[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//img[@class='psuedo-back-img'])[1]' is not a valid XPath expression.
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A3FKGMU', ip: '192.168.1.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\baps\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59f4a872583b4ff53ebddb7d3b193fa1
+*** Element info: {Using=xpath, value=//img[@class='psuedo-back-img'])[1]}
+2023-Jan-11 17:47:57 pm [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2023-Jan-11 17:48:38 pm [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2023-Jan-11 17:48:38 pm [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Action')]"}
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A3FKGMU', ip: '192.168.1.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\baps\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59f4a872583b4ff53ebddb7d3b193fa1
+*** Element info: {Using=xpath, value=//a[contains(text(),'Action')]}
+2023-Jan-11 17:49:20 pm [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2023-Jan-11 17:49:20 pm [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[.='Identify within Enrollments']"}
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A3FKGMU', ip: '192.168.1.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\baps\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59f4a872583b4ff53ebddb7d3b193fa1
+*** Element info: {Using=xpath, value=//a[.='Identify within Enrollments']}
+2023-Jan-11 17:50:00 pm [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2023-Jan-11 17:50:01 pm [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2023-Jan-11 17:50:01 pm [main] ERROR com.web.reporting.TestListner - com.FaceFirst.web.runner.RunTestNGTest
+2023-Jan-11 17:50:01 pm [main] ERROR com.web.reporting.TestListner - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[text()='No matches found, enrolling...'])[2] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[text()='No matches found, enrolling...'])[2]' is not a valid XPath expression.
+  (Session info: chrome=108.0.5359.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A3FKGMU', ip: '192.168.1.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\baps\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59f4a872583b4ff53ebddb7d3b193fa1
+*** Element info: {Using=xpath, value=//div[text()='No matches found, enrolling...'])[2]}

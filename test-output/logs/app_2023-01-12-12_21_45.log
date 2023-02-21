@@ -1,0 +1,16 @@
+2023-Jan-12 12:21:53 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-12 12:21:54 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-12 12:22:08 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-12 12:22:08 PM [main] INFO  com.web.actions.WebActions - Write Text 'Shubham@123' on --> id: password]
+2023-Jan-12 12:22:13 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-12 12:22:47 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2023-Jan-12 12:22:47 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2023-Jan-12 12:22:50 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-12 12:22:51 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-12 12:22:52 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: username]
+2023-Jan-12 12:22:53 PM [main] INFO  com.web.actions.WebActions - Write Text 'test@yugensys.com' on --> id: username]
+2023-Jan-12 12:22:53 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-12 12:22:53 PM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: password]
+2023-Jan-12 12:22:54 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-12 12:22:58 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //*[text()='Invalid username or password']]
+2023-Jan-12 12:22:59 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

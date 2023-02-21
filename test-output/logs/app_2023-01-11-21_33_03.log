@@ -1,0 +1,94 @@
+2023-Jan-11 21:33:11 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-11 21:33:16 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-11 21:33:29 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-11 21:33:29 PM [main] INFO  com.web.actions.WebActions - Write Text 'Shubham@123' on --> id: password]
+2023-Jan-11 21:33:33 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-11 21:33:50 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Close']]
+2023-Jan-11 21:34:01 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='https://localhost']]
+2023-Jan-11 21:34:01 PM [main] INFO  com.web.actions.WebActions - Window Switching : 
+2023-Jan-11 21:34:12 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-username]
+2023-Jan-11 21:34:12 PM [main] INFO  com.web.actions.WebActions - Write Text 'shubham' on --> id: login-username]
+2023-Jan-11 21:34:12 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-password]
+2023-Jan-11 21:34:12 PM [main] INFO  com.web.actions.WebActions - Write Text 'Shubham@123' on --> id: login-password]
+2023-Jan-11 21:34:12 PM [main] INFO  com.web.actions.WebActions - Enter Key On --> id: login-password]
+2023-Jan-11 21:34:13 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //img[@id='ff-header-logo']]
+2023-Jan-11 21:34:13 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //img[@id='ff-header-logo']]
+2023-Jan-11 21:34:14 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //p[@class='posrel disblk fltlft' and text()='Visitors']]
+2023-Jan-11 21:34:14 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //p[@class='posrel disblk fltlft' and text()='Visitors']]
+2023-Jan-11 21:34:15 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: (//img[@class='psuedo-back-img'])[1]]
+2023-Jan-11 21:34:15 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //p[text()='Visitor - Photo View']]
+2023-Jan-11 21:34:16 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[contains(text(),'Action')]]
+2023-Jan-11 21:34:18 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[.='Identify within Enrollments']]
+2023-Jan-11 21:34:49 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2023-Jan-11 21:35:04 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //p[text()='Add Details']]
+2023-Jan-11 21:35:05 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@name='internal_group']]
+2023-Jan-11 21:35:15 PM [main] INFO  com.web.actions.WebActions - Exception: SelectByValue: DefaultEnrollmentGroup (Serious Offender - None), --> xpath: //select[@name='internal_group']]
+2023-Jan-11 21:35:15 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: DefaultEnrollmentGroup (Serious Offender - None)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: unknown
+2023-Jan-11 21:35:15 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> xpath: //input[@name='storeId']]
+2023-Jan-11 21:35:16 PM [main] INFO  com.web.actions.WebActions - Write Text 'mumbai' on --> xpath: //input[@name='storeId']]
+2023-Jan-11 21:35:16 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> xpath: //input[@name='caseNumber']]
+2023-Jan-11 21:35:16 PM [main] INFO  com.web.actions.WebActions - Write Text 'kill 1 person' on --> xpath: //input[@name='caseNumber']]
+2023-Jan-11 21:35:17 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> xpath: //input[@name='reportedLoss']]
+2023-Jan-11 21:35:17 PM [main] INFO  com.web.actions.WebActions - Write Text '500000' on --> xpath: //input[@name='reportedLoss']]
+2023-Jan-11 21:35:17 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> xpath: //input[@name='timeIncident']]
+2023-Jan-11 21:35:18 PM [main] INFO  com.web.actions.WebActions - Write Text '07122000 0625' on --> xpath: //input[@name='timeIncident']]
+2023-Jan-11 21:35:18 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> xpath: //input[@name='action']]
+2023-Jan-11 21:35:19 PM [main] INFO  com.web.actions.WebActions - Write Text 'call police' on --> xpath: //input[@name='action']]
+2023-Jan-11 21:35:29 PM [main] INFO  com.web.actions.WebActions - Click on :
+2023-Jan-11 21:35:39 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //div[text()='Enrollment Success' and @class='enroll-steps-title light-blue-bg']]
+2023-Jan-11 21:36:10 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2023-Jan-11 21:36:10 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='identify_14']/div[1]/div"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 944cde0717020be156f21540eabb2422
+*** Element info: {Using=xpath, value=//*[@id='identify_14']/div[1]/div}
+2023-Jan-11 21:36:50 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2023-Jan-11 21:36:50 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='large_view_7']/div[1]/div"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 944cde0717020be156f21540eabb2422
+*** Element info: {Using=xpath, value=//*[@id='large_view_7']/div[1]/div}
+2023-Jan-11 21:37:31 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2023-Jan-11 21:37:31 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='aliens_6']/div[1]/div"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 944cde0717020be156f21540eabb2422
+*** Element info: {Using=xpath, value=//*[@id='aliens_6']/div[1]/div}
+2023-Jan-11 21:37:51 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //div[@id='start-logo-container']]
+2023-Jan-11 21:37:51 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 944cde0717020be156f21540eabb2422
+2023-Jan-11 21:38:01 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //p[text()='Events' and @class='login-menu-title tal posrel fltlft']]
+2023-Jan-11 21:38:01 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\shree\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 944cde0717020be156f21540eabb2422
+2023-Jan-11 21:38:02 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2023-Jan-11 21:38:02 PM [main] ERROR com.web.reporting.TestListner - com.FaceFirst.web.runner.RunTestNGTest
+2023-Jan-11 21:38:02 PM [main] ERROR com.web.reporting.TestListner - org.openqa.selenium.WebDriverException: java.io.IOException: There is not enough space on the disk
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KDRQDOD', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: RemoteWebDriver

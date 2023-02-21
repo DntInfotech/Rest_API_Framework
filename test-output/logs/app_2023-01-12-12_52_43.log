@@ -1,0 +1,18 @@
+2023-Jan-12 12:52:54 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-12 12:52:57 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-12 12:53:06 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: username]
+2023-Jan-12 12:53:07 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikantk@yugensys.com' on --> id: username]
+2023-Jan-12 12:53:11 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-12 12:53:12 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: password]
+2023-Jan-12 12:53:17 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-12 12:53:31 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //span[contains(text(),"Welcome to the FaceFirst platform!")]]
+2023-Jan-12 12:53:32 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2023-Jan-12 12:53:36 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-12 12:53:38 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-12 12:53:39 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: username]
+2023-Jan-12 12:53:40 PM [main] INFO  com.web.actions.WebActions - Write Text 'test@yugensys.com' on --> id: username]
+2023-Jan-12 12:53:40 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-12 12:53:41 PM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: password]
+2023-Jan-12 12:53:41 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-12 12:53:46 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //*[text()='Invalid username or password']]
+2023-Jan-12 12:53:47 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

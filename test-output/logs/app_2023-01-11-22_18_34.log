@@ -1,0 +1,21 @@
+2023-Jan-11 22:18:43 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-11 22:18:46 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-11 22:18:59 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-11 22:18:59 PM [main] INFO  com.web.actions.WebActions - Write Text 'Shubham@123' on --> id: password]
+2023-Jan-11 22:19:04 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-11 22:19:20 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[text()='Close']]
+2023-Jan-11 22:19:31 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='https://localhost']]
+2023-Jan-11 22:19:31 PM [main] INFO  com.web.actions.WebActions - Window Switching : 
+2023-Jan-11 22:19:42 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-username]
+2023-Jan-11 22:19:42 PM [main] INFO  com.web.actions.WebActions - Write Text 'shubham' on --> id: login-username]
+2023-Jan-11 22:19:43 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: login-password]
+2023-Jan-11 22:19:43 PM [main] INFO  com.web.actions.WebActions - Write Text 'Shubham@123' on --> id: login-password]
+2023-Jan-11 22:19:43 PM [main] INFO  com.web.actions.WebActions - Enter Key On --> id: login-password]
+2023-Jan-11 22:19:43 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //img[@id='ff-header-logo']]
+2023-Jan-11 22:19:43 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //img[@id='ff-header-logo']]
+2023-Jan-11 22:19:47 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //p[@class='posrel disblk fltlft' and text()='Visitors']]
+2023-Jan-11 22:19:48 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //p[@class='posrel disblk fltlft' and text()='Visitors']]
+2023-Jan-11 22:19:50 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: (//img[@class='psuedo-back-img'])[1]]
+2023-Jan-11 22:19:51 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //p[text()='Visitor - Photo View']]
+2023-Jan-11 22:19:51 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[contains(text(),'Action')]]
+2023-Jan-11 22:19:53 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[.='Identify within Enrollments']]

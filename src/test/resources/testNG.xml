@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10" configfailurepolicy="skip">
+    <listeners>
+        <listener class-name="com.web.reporting.TestListner" />
+		<listener class-name="com.web.hooks.CustomReportListener" />
+    </listeners>
+    <test name="Complete test run">
+        <classes>
+            <class name="com.FaceFirst.web.runner.RunTestNGTest" />
+        </classes>
+    </test>
+    
+</suite>
